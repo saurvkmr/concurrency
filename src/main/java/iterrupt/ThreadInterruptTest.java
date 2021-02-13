@@ -15,7 +15,7 @@ public class ThreadInterruptTest {
             try {
                 Thread.sleep(190000);
             } catch (InterruptedException e) {
-                System.err.println("Exiting out");
+                //System.err.println("Exiting out");
             }
         }
     }
